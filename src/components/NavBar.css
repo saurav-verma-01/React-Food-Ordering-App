@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  position: relative;
+  transition: all 0.5s ease;
+}
+.nav-link::before {
+  content: "";
+  width: 10%;
+  height: 3px;
+  background-color: var(--orange-2);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.nav-link:hover .nav-link::before {
+  width: 100%;
+}
+
+.primary-link {
+  background-color: var(--orange-2);
+  color: var(--light);
+}

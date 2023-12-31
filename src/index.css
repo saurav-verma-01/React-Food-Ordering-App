@@ -1,0 +1,38 @@
+:root {
+  --dark: #191500;
+  --yellow: #fcdb02;
+  --orange: #ff6000;
+  --orange-2: #ff7100;
+  --light: #fff9d9;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Merriweather", serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1260px;
+  margin-inline: auto;
+}
