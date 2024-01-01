@@ -3,10 +3,9 @@ import NavBar from "./NavBar";
 
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <div className="container">
         <NavBar />
-        {/* <h2>BANNER</h2> */}
       </div>
     </header>
   );

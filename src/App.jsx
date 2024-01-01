@@ -1,11 +1,14 @@
+import Body from "./components/Body";
 import Header from "./components/Header";
+
+import data from "./res-data.js";
 
 const App = () => {
   return (
     <div>
       <Header />
-      <h1>BODY</h1>
-      <h1>FOOTER</h1>
+      <Body data={data} />
+      {/* <h1>FOOTER</h1> */}
     </div>
   );
 };
