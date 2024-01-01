@@ -1,5 +1,5 @@
 import "./NavBar.css";
-import logoHighRes from "../assets/deluciousHres.webp";
+import logoHighRes from "../assets/deluciousHres2.jpg";
 
 const NavBar = () => {
   return (
