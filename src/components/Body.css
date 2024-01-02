@@ -4,3 +4,35 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
+
+.filter {
+  padding: 2rem 0;
+  background-color: var(--light-2);
+  margin: 1rem auto;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  gap: 1rem;
+}
+.filter-btn {
+  border-radius: 0.2rem;
+  background-color: var(--yellow);
+  padding: 0.5rem 1rem;
+  color: var(--dark);
+  font-size: 0.9rem;
+  font-weight: bold;
+
+  box-shadow: 0 0.15rem 0.6rem rgba(0, 0, 0, 0.1);
+  border: 2px solid transparent;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+.filter-btn:is(:hover, :focus-visible) {
+  box-shadow: 0 0.35rem 0.5rem rgba(0, 0, 0, 0.3);
+  /* border-color: var(--yellow); */
+  background-color: #dbbe01;
+
+  transform: translateY(-0.1rem);
+}
